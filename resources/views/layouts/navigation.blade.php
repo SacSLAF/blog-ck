@@ -3,7 +3,7 @@
         <div class="flex justify-between h-16">
             <div class="flex">
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('home') }}" class="font-bold text-xl">HSD Blogging</a>
+                    <a href="{{ route('home') }}" class="font-bold text-4xl">HSD Blogging</a>
                 </div>
             </div>
             <div class="flex items-center">

@@ -12,5 +12,9 @@
             <div class="prose">{!! $post->content !!}</div>
         </div>
     @endforeach
+    <!-- Pagination Links -->
+    <div class="mt-6">
+        {{ $posts->links() }}
+    </div>
 </div>
 @endsection

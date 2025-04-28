@@ -37,7 +37,12 @@
                     </td>
                 </tr>
             @endforeach
+            <!-- Pagination Links -->
+
         </tbody>
     </table>
+    <div class="mt-6">
+        {{ $posts->links() }}
+    </div>
 </div>
 @endsection

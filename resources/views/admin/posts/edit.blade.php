@@ -69,7 +69,7 @@
             toolbar: [
                 'heading', '|',
                 'bold', 'italic', 'link', 'bulletedList', 'numberedList', '|',
-                'imageUpload', 'blockQuote', 'insertTable', 'undo', 'redo'
+                'imageUpload', 'blockQuote', 'insertTable', 'mediaEmbed', 'undo', 'redo'
             ]
         })
         .then(editor => {

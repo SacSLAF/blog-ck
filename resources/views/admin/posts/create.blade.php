@@ -29,6 +29,7 @@
             <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Save Post</button>
         </form>
     </div>
+@endsection
 @section('scripts')
     <script src="https://cdn.ckeditor.com/ckeditor5/41.0.0/classic/ckeditor.js"></script>
     <script>

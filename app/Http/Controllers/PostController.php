@@ -13,9 +13,13 @@ class PostController extends Controller
         $posts = Post::where('is_draft', false)
             ->whereNotNull('published_at')
             ->latest()
-            ->paginate(5);
+            ->paginate(6);
         // $posts = Post::where('is_draft', false)->whereNotNull('published_at')->latest()->get();
         return view('posts.index', compact('posts'));
+    }
+    public function show(Post $post)
+    {
+        return view('posts.show', compact('post'));
     }
 
     public function adminIndex()
